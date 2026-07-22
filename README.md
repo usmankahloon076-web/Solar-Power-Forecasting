@@ -1,221 +1,117 @@
-# ☀️ Solar Power Forecasting using Machine Learning
+# ☀️ Solar Power Forecasting Dashboard
 
-An interactive Machine Learning project that predicts **DC power generation** of a solar power plant using a **Random Forest Regressor**. The project combines a trained ML model, an interactive dashboard, and live weather integration to visualize solar energy production.
-
----
-
-## 🌐 Live Demo
-
-**Dashboard:**  
-https://usmankahloon076-web/Solar-Power-Forecasting/
-
-*(Replace `usmankahloon076-web` with your GitHub username after enabling GitHub Pages.)*
+An interactive Human Computer Interaction (HCI) dashboard for forecasting solar power generation using Machine Learning and live weather data.
 
 ---
 
-## 📸 Dashboard Preview
+# 🚀 Live Demo
 
-> Upload a screenshot named **Dashboard.png** to your repository.
+### 🌐 Website
 
-![Dashboard Preview](Dashboard.png)
-
----
-
-# 🚀 Features
-
-- ☀️ Solar power prediction using Machine Learning
-- 📊 Interactive dashboard
-- 📈 Live gauge visualization
-- 🌤️ Live weather integration using Open-Meteo API
-- 🎛️ What-if simulation with interactive sliders
-- 📉 Daily solar generation curve
-- 🤖 Random Forest Regression model
-- 💻 Responsive web interface
+https://usmankahloon076-web.github.io/Solar-Power-Forecasting/
 
 ---
 
-# 🧠 Machine Learning Model
+# 📸 Dashboard Preview
 
-**Algorithm**
-
-- Random Forest Regressor
-
-**Input Features**
-
-- Irradiation
-- Module Temperature
-- Ambient Temperature
-- Hour
-- Day
-
-**Output**
-
-- Predicted DC Power
+![Dashboard](Dashboard.png)
 
 ---
 
-# 🛠️ Technologies Used
+# 📖 Project Overview
 
-### Programming
+This project predicts solar power generation using weather sensor data and provides an interactive dashboard that allows users to visualize expected plant output under different environmental conditions.
+
+The dashboard demonstrates Human Computer Interaction principles through:
+
+- Live weather retrieval
+- Interactive prediction gauge
+- Direct manipulation sliders
+- Instant visual feedback
+- Responsive user interface
+
+---
+
+# ✨ Features
+
+- ☀️ Solar Power Prediction
+- 🌡 Temperature Derating
+- 📈 Interactive Gauge
+- 🌍 Live Weather API
+- 🎛 What-if Simulator
+- 📊 Daily Generation Curve
+- 📱 Responsive Design
+
+---
+
+# 🛠 Technologies Used
+
+## Programming Languages
 
 - Python
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
-### Libraries
+## Machine Learning
+
+- Scikit-learn
+- Random Forest Regressor
+
+## Data Analysis
 
 - Pandas
 - NumPy
-- Scikit-learn
-- Joblib
-- Flask
 
-### APIs
+## Visualization
+
+- Matplotlib
+
+## Weather API
 
 - Open-Meteo API
 
-### Tools
-
-- Jupyter Notebook
-- VS Code
-- Git
-- GitHub
-
 ---
 
-# 📂 Project Structure
+# 📂 Repository Structure
 
-```text
+```
 Solar-Power-Forecasting
-│
-├── app.py
-├── requirements.txt
-├── solar_model.pkl
-├── Project Notebook.ipynb
-├── index.html
-├── Dashboard.png
-├── Plant_1_Generation_Data.csv
-├── Plant_1_Weather_Sensor_Data.csv
-├── README.md
-└── LICENSE
+
+│── index.html
+│── ProjectNotebook.ipynb
+│── Plant_1_Generation_Data.csv
+│── Plant_1_Weather_Sensor_Data.csv
+│── Dashboard.png
+│── README.md
+│── requirements.txt
 ```
 
 ---
 
-# ⚙️ Installation
+# 🎯 Objective
 
-Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Solar-Power-Forecasting.git
-```
-
-Go into the project folder
-
-```bash
-cd Solar-Power-Forecasting
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the Flask application
-
-```bash
-python app.py
-```
-
-Open
-
-```
-http://127.0.0.1:5000
-```
+Develop a machine learning-based system capable of estimating solar power generation while providing an intuitive and user-friendly interface for monitoring plant performance.
 
 ---
 
-# 📊 Dataset
+# 🔮 Future Improvements
 
-The project uses Solar Power Generation datasets containing:
-
-- Plant Generation Data
-- Weather Sensor Data
-
-Features include:
-
-- DC Power
-- Irradiation
-- Module Temperature
-- Ambient Temperature
-- Daily Yield
-- Total Yield
-
----
-
-# 🖥️ Dashboard
-
-The dashboard includes
-
-- Live Solar Power Gauge
-- Weather Information
-- Interactive Controls
-- Solar Power Prediction
-- Daily Power Curve
-
----
-
-# 📈 Workflow
-
-```
-Weather Data
-        │
-        ▼
-Feature Extraction
-        │
-        ▼
-Random Forest Model
-        │
-        ▼
-Prediction
-        │
-        ▼
-Interactive Dashboard
-```
-
----
-
-# 🎯 Future Improvements
-
-- Deploy Flask backend online
-- Real-time IoT sensor integration
-- Power generation forecasting for multiple plants
-- Mobile application
-- Deep Learning model comparison
-- Historical analytics dashboard
-
----
-
-# 📜 License
-
-This project is created for educational and research purposes.
+- Deploy actual trained Random Forest model
+- Flask backend
+- Streamlit version
+- Historical prediction graphs
+- Multiple solar plants
+- User authentication
+- Export predictions to PDF
 
 ---
 
 # 👨‍💻 Author
 
-**Usman Kousar**
+**Usman Kahloon**
 
-
-
-GitHub:
-https://github.com/usmankahloon076-web
-
-LinkedIn:
-https://www.linkedin.com/in/usman-kousar-579762283/
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a Star.
+⭐ If you found this project interesting, consider giving it a star.
