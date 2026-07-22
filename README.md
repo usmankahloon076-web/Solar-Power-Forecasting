@@ -67,8 +67,5 @@ ProjectNotebook.ipynb
 
 ## Author
 
-Usman Kahloon
+Usman Kousar
 
-BS Computer Science
-
-University of Management and Technology (UMT)
